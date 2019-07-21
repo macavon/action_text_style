@@ -31,5 +31,12 @@ module ActionTextBugDemo
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # config.autoload_paths += ['lib']
+
+    config.after_initialize do
+      ActionText::ContentHelper.allowed_attributes.add 'style'
+    end
+
   end
 end
