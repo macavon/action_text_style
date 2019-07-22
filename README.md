@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bare bones app to show `ActionText` stripping `style` attributes when displaying a rich text field. A `TextColour` attribute is defined and applied using a colour picker (`input[type=color]`).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Switch to the `workround` branch for a version that preserves the style.
